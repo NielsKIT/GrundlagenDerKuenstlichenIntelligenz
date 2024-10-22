@@ -1,0 +1,20 @@
+name: gki_exercises
+channels:
+  - defaults
+dependencies:
+  - python=3.10.12
+  - pip=23.1.2
+
+  - pip:
+    # For the exercises themselves:
+    - numpy==1.26.4
+    - matplotlib==3.7.1
+    - pandas==2.2.2
+    - requests==2.32.3
+    - scipy==1.13.1
+    - scikit-learn==1.5.2
+    - seaborn==0.13.2
+    - torch==2.4.1
+    - torchvision==0.19.1
+    - tqdm==4.66.5
+    - pygame==2.6.1
